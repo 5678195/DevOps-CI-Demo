@@ -1,0 +1,2 @@
+echo 'def say_hello(): return "Hello CI"' > main.py
+echo 'import main\ndef test_say_hello(): assert main.say_hello() == "Hello CI"' > test_main.py
